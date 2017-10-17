@@ -1,0 +1,42 @@
+.aboutme-footer
+{
+	background-color: #414141;
+	min-height: 60px;
+	/*min-width: 1200px; */ 
+	width: 100%;
+}
+
+.designed-by {
+	color: #9c9c9c;
+	font-size: 14px;
+	line-height: 16px;
+	position: absolute;
+    left: 12%;
+    margin-top: 18px;
+}
+
+.socials__link {
+  width: 32px;
+  height: 31px;
+  display: block;
+  background-image: url("../../img/icons/socials.png");
+  background-repeat: no-repeat; }
+.socials__link:hover {
+  background-image: url("../../img/icons/socials-hover.png"); }
+
+  .socials__link.socials__link_fb {
+  background-position: 0 0; }
+
+.socials__link.socials__link_vk {
+  background-position: -100px 0; }
+
+.socials__link.socials__link_tw {
+  background-position: -200px 0; }
+
+  .socials__list {
+  position: absolute;
+  right: 50px;
+  top: 10px; }
+
+.socials__item {
+  display: inline-block; }

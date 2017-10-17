@@ -1,0 +1,382 @@
+
+html, body {
+    width: 100%;
+    height:100%;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 24px;
+    background-color: #f6f6f6;
+}
+#overlay {
+    background: #000;
+    position: fixed;
+  top: 0;
+    left: 0;
+    height: 100%;
+  width: 100%;
+    opacity: 0.5;
+    z-index: 1000;
+    display: none;
+}
+
+#popup {
+  width: 550px;
+  background: #fff;
+  padding: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5), inset 0 0 60px rgba(0, 0, 0, 0.2);
+  color: #565656;
+  z-index: 1001;
+  display: none;
+}
+
+#popup h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#popup p {
+  margin: 6px 0;
+}
+
+
+ #close_popup {
+  width: 14px;
+  height: 16px;
+  background: url('../../img/close.png') no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+height:auto !important; 
+height:100%;
+min-height:100%;
+position:relative;
+width: 100%;
+min-width: 1200px;
+}
+
+.wrapper:after {
+  content: "";
+  height: 50px;
+  display: block;
+}
+
+
+
+.aboutme-footer {
+height:50px;
+position:relative;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+h1 {
+  color: #414141;
+}
+
+@media screen and (min-width: 993px)  and (max-width:1200px){
+  .container {
+width: 1200px;
+  }
+  .wrapper {
+min-width: 1200px;
+}
+.aboutme-footer {
+  min-width: 1200px;
+}
+}
+
+
+@media screen and (max-width: 992px)
+{
+ .container {
+  width: 768px;
+  margin-left: 0;}
+
+.content-menu > li {
+    display: inline-block;
+   margin-bottom: 30px; 
+
+}
+
+.user-aboutme-photo {
+  width: 170px;
+  height: 170px;
+
+}
+.contact-link,
+.submenu {
+  margin-top: -87px;
+}
+
+.header {
+  height: 80px;
+}
+.wrapper {
+min-width: 768px;
+}
+.aboutme-footer {
+  min-width: 768px;
+}
+
+.nav__item.nav__item__active {
+        border: none;
+        font-weight: bold;
+    }
+
+
+  
+
+    ul.submenu {
+      opacity: 0.8;
+    }
+
+     .user-career-photo {
+      margin-left: 70px;
+      margin-right: 170px:  }
+      .careerh1 {
+  margin-left: 70px; }
+
+.careerh1 {
+  margin-left: 130px; }
+
+
+  .portfolio__h1 {
+    margin-left: 70px;
+    margin-bottom: 30px; }
+
+    .portfolio {
+      margin-left: -350px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+ .container {
+  width: 480px;
+  margin-left: 0;
+ }
+
+ .content-menu > li {
+    display: inline-block;
+
+}
+.content-menu > li:last-child {
+  margin-bottom: 40px;
+}
+
+ .user-aboutme-photo {
+  width: 170px;
+  height: 170px;
+  margin: 0 50%;
+ 
+}
+ul.menu > li > a {
+ display: none;
+}
+
+.contact__mobile {
+    display: block;
+    background: url('../../img/icons/phone.png')no-repeat;
+    position: relative;
+    top: -60px;
+    left: 200px;
+    width: 40px;
+    height: 40px;
+}
+
+.contact-link, .submenu {
+    margin-top: -73px;
+    margin-left: 120px;
+    }
+
+.user-aboutme-text {
+  height: 100%;
+
+}
+.wrapper {
+min-width: 480px;
+}
+.aboutme-footer {
+  min-width: 480px;
+}
+.nav__item.nav__item__active {
+        border: none;
+        font-weight: bold;
+    }
+
+    .user-career-photo {
+      margin-left: 150px;
+     
+    }
+
+.user-career-text {
+ position: relative;
+ left: 150px;
+ top: 30px;
+
+}
+
+ .career__year,
+    .career__year:after {
+      display: none;
+    }
+
+    
+ .portfolio__h1 {
+    margin-left: 150px;
+    margin-bottom: 30px; }
+
+    .portfolio {
+      margin-left: -150px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 660px) {
+ .container {
+  width: 480px;
+  margin-left: 0;
+ }
+
+ .content-menu > li {
+    display: inline-block;
+
+}
+.content-menu > li:last-child {
+  margin-bottom: 40px;
+}
+
+ .user-aboutme-photo {
+  width: 170px;
+  height: 170px;
+  margin: 0 50%;
+ 
+}
+ul.menu > li > a {
+ display: none;
+}
+
+.contact__mobile {
+    display: block;
+    background: url('../../img/icons/phone.png')no-repeat;
+    position: relative;
+    top: -60px;
+    left: 200px;
+    width: 40px;
+    height: 40px;
+}
+
+.contact-link, .submenu {
+       margin-top: -73px;
+    margin-left: 40px;
+      }
+ul.submenu:after {
+    
+    position: absolute;
+    top: 0px;
+    left: 90%;
+   
+}
+#popup {
+    width: 350px;
+    background: #fff;
+    padding: 5px;
+    position: fixed;
+    top: 50%;
+    left: 70%;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5), inset 0 0 60px rgba(0, 0, 0, 0.2);
+    color: #565656;
+    z-index: 1001;
+}
+
+@media screen and (max-width: 580px) {
+ .container {
+  width: 480px;
+  margin-left: 0;
+ }
+
+ .content-menu > li {
+    display: inline-block;
+
+}
+.content-menu > li:last-child {
+  margin-bottom: 40px;
+}
+
+ .user-aboutme-photo {
+  width: 170px;
+  height: 170px;
+  margin: 0 50%;
+ 
+}
+ul.menu > li > a {
+ display: none;
+}
+
+.contact__mobile {
+    display: none;
+}
+
+.aboutme-footer {
+  height: 100px;
+}
+.socials__list {
+    margin-top: 40px;
+    margin-right: 180px;
+}
+
+#popup {
+    width: 350px;
+    background: #fff;
+    padding: 5px;
+    position: fixed;
+    top: 50%;
+    left: 70%;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5), inset 0 0 60px rgba(0, 0, 0, 0.2);
+    color: #565656;
+    z-index: 1001;
+
+}

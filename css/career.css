@@ -1,0 +1,81 @@
+.user-career-photo {
+    display: inline-block;
+    float: left;
+    margin-right: 100px;
+   width: 220px;
+   height: 220px;
+   overflow: hidden;
+   border-radius: 9px;
+
+}
+
+
+
+.career__block,
+.career__block1{
+  width: 300px;
+  display: inline-block; 
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+} 
+
+.user-career-text {
+  display: inline-block;
+}
+
+.career__year {
+  position: relative;
+  right: 85px;
+  top: -40px;
+  
+}
+
+.career__item:hover .career__year
+ {
+    color: #33c1e3;
+    font-weight: bold;
+} 
+
+.career__item:hover .career__block  {
+    background: #33c1e3;
+}
+
+
+/*
+
+.career__item {
+  display: inline-block;
+
+
+}
+
+.career__block1 {
+  margin-left: 635px;
+}
+
+*/
+
+
+.career__year:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #33c1e3;
+    position: relative;
+    right: -45px;
+    top: -12px;
+    z-index: 1;
+    margin-top: -10px;
+    border-radius: 50%;
+    border: 5px solid #f6f6f6; 
+
+  }
+
+.career__item:hover .career__year:after {
+    border-color: #94e0f2; 
+}

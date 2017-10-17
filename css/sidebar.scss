@@ -1,0 +1,25 @@
+.menu {
+    display: inline-block;
+    float: left;
+    margin-right: 100px;
+    margin-left: 160px;
+    text-align: right;
+    line-height: 40px;
+}
+
+    
+.content-menu > li > a{
+    color: #414141;
+}
+
+.content-menu > li > a:hover{
+    color:  #33c1e3;
+} 
+
+.nav__item.nav__item__active {
+    border-right: 6px solid #33c1e3;
+}
+
+.nav__item > a {
+ padding-right: 20px;
+}

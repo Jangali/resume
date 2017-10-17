@@ -1,0 +1,48 @@
+.portfolio__item {
+	display: inline-block;
+	width: 220px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); 
+	 border-radius: 10px;
+	 overflow: hidden;
+	 margin-left: 5px;
+	 margin-bottom: 5px;
+
+
+}
+.portfolio__item:hover {
+	cursor: pointer;
+}
+
+.portfolio__pic {
+	background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 175px;
+}
+
+.portfolio__bottom {
+	padding: 20px;
+	background: #ffffff;
+}
+.portfolio__title {
+	color: #33c1e3;
+
+}
+.portfolio__description {
+	color: #414141;
+}
+
+.career__year {
+	display: none;
+}
+
+.portfolio__list {
+	width: 63%;
+	float: right;
+}
+
+/*.animated {
+  -webkit-animation-duration: .1s;
+  -o-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s; } */

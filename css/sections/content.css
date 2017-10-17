@@ -1,0 +1,78 @@
+.first-content-div {
+    background-color: #f6f6f6;
+}
+
+
+.user-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+} 
+
+.user-aboutme-photo {
+    display: inline-block;
+    float: left;
+    margin-right: 55px;
+   width: 290px;
+   height: 290px;
+   border-radius: 50%;
+   overflow: hidden;
+
+
+}
+
+.user-career-photo {
+    display: inline-block;
+    float: left;
+    margin-right: 55px;
+   width: 220px;
+   height: 220px;
+   overflow: hidden;
+
+
+}
+
+.about__right {
+    float: right;
+}
+
+
+
+.user-aboutme-text {
+    text-align: left;
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 63px;
+    color: #727272;
+}
+
+
+
+.user-aboutme-resume {
+    
+    display: block;
+    text-align: right;
+    
+    }
+    
+.button {
+    padding: 7px 15px;
+    border: 2px solid #e85f61;
+    color: #e85f61;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #e85f61;
+    color: #ffffff;
+}
+.user-aboutme-detail {
+    width: 80%;
+    margin: 0 auto;
+}
+

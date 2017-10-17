@@ -1,0 +1,459 @@
+.user-career-photo {
+  display: inline-block;
+  float: left;
+  margin-right: 100px;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 9px;
+}
+
+.career__block,
+.career__block1 {
+  display: inline-block;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.user-career-text {
+  width: 300px;
+  display: inline-block;
+}
+
+.portfolio__item {
+  display: inline-block;
+  width: 220px;
+}
+
+.portfolio__pic {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 175px;
+}
+
+.auth {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  opacity: 0;
+}
+
+.auth.bounceIn {
+  opacity: 1;
+  animation: bounceIn 1s;
+}
+
+.auth__top {
+  border-radius: 7px 7px 0 0;
+  background: #fff;
+  padding: 80px 60px 20px 60px;
+  font-size: 21px;
+  position: relative;
+  margin-top: 70px;
+}
+
+.auth__avatar {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  margin-left: -70px;
+}
+
+.auth__bottom {
+  background: #33c1e3;
+  padding: 20px 0;
+  border-radius: 0 0 7px 7px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 24px;
+  background-color: #f6f6f6;
+}
+
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 1200px;
+}
+
+.empty {
+  height: 100px;
+}
+
+.aboutme-footer {
+  height: 100px;
+  position: relative;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+  .wrapper {
+    min-width: 1200px;
+  }
+  .aboutme-footer {
+    min-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 768px;
+    margin-left: 0;
+  }
+  .content-menu > li {
+    display: inline;
+  }
+  .user-aboutme-photo {
+    width: 170px;
+    height: 170px;
+    margin: 50px;
+    margin-right: 100px;
+  }
+  .contact-link,
+  .submenu {
+    margin-top: -87px;
+  }
+  .header {
+    height: 80px;
+  }
+  .wrapper {
+    min-width: 768px;
+  }
+  .aboutme-footer {
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 480px;
+    margin-left: 0;
+  }
+  .content-menu > li {
+    display: inline;
+  }
+  .user-aboutme-photo {
+    width: 170px;
+    height: 170px;
+    margin: 0 50%;
+  }
+  ul.menu > li > a {
+    display: none;
+  }
+  .user-aboutme-text {
+    height: 100%;
+  }
+  .wrapper {
+    min-width: 480px;
+  }
+  .aboutme-footer {
+    min-width: 480px;
+  }
+}
+
+header {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header__left {
+  float: left;
+}
+
+.user-photo {
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  margin: 10px 20px 10px 130px;
+  width: 62px;
+  height: 62px;
+}
+
+.user-text {
+  display: inline-block;
+  color: #414141;
+  padding-top: 27px;
+}
+
+.header__right {
+  float: right;
+}
+
+.user-contacts {
+  color: #33c1e3;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-link {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  height: 20px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.menu > li {
+  float: left;
+  position: relative;
+}
+
+ul.menu > li > a {
+  display: block;
+  padding: 10px;
+  color: #33c1e3;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+  color: #e85f61;
+}
+
+ul.submenu {
+  display: none;
+  position: absolute;
+  width: 193px;
+  /*height: 136px;*/
+  top: 37px;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  /*border: 2px solid grey; */
+}
+
+ul.submenu > li {
+  display: block;
+}
+
+ul.submenu > li > a {
+  display: block;
+  padding: 10px;
+  color: #414141;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+ul.menu > li:hover > ul.submenu {
+  display: block;
+}
+
+.first-content-div {
+  background-color: #f6f6f6;
+}
+
+.user-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.user-aboutme-photo {
+  display: inline-block;
+  float: left;
+  margin-right: 55px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-career-photo {
+  display: inline-block;
+  float: left;
+  margin-right: 55px;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.about__right {
+  float: right;
+}
+
+.user-aboutme-text {
+  text-align: left;
+  height: 300px;
+  overflow: auto;
+  margin-bottom: 63px;
+  color: #727272;
+}
+
+.user-aboutme-resume {
+  display: block;
+  text-align: right;
+}
+
+.button {
+  padding: 9px 12px;
+  border: 2px solid #e85f61;
+  color: #e85f61;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 40px;
+}
+
+.button:hover {
+  background-color: #e85f61;
+  color: #ffffff;
+}
+
+.user-aboutme-detail {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu {
+  display: inline-block;
+  float: left;
+  margin-right: 100px;
+  margin-left: 160px;
+  text-align: right;
+  line-height: 40px;
+}
+
+.content-menu > li > a {
+  color: #414141;
+}
+
+.content-menu > li > a:hover {
+  color: #33c1e3;
+}
+
+.nav__item.nav__item__active {
+  border-right: 6px solid #33c1e3;
+}
+
+.nav__item > a {
+  padding-right: 20px;
+}
+
+.first-content-div {
+  background-color: #f6f6f6;
+}
+
+.user-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.user-aboutme-photo {
+  display: inline-block;
+  float: left;
+  margin-right: 55px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-career-photo {
+  display: inline-block;
+  float: left;
+  margin-right: 55px;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.about__right {
+  float: right;
+}
+
+.user-aboutme-text {
+  text-align: left;
+  height: 300px;
+  overflow: auto;
+  margin-bottom: 63px;
+  color: #727272;
+}
+
+.user-aboutme-resume {
+  display: block;
+  text-align: right;
+}
+
+.button {
+  padding: 9px 12px;
+  border: 2px solid #e85f61;
+  color: #e85f61;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 40px;
+}
+
+.button:hover {
+  background-color: #e85f61;
+  color: #ffffff;
+}
+
+.user-aboutme-detail {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.aboutme-footer {
+  background-color: #414141;
+  min-height: 50px;
+  /*min-width: 1200px; */
+  width: 100%;
+}
+
+.icons > li {
+  display: inline-block;
+  float: left;
+}

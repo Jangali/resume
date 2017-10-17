@@ -1,0 +1,64 @@
+
+
+
+.auth {
+  display: inline-block;
+  width: 300px;
+  margin: 0 49%;
+margin-top: 150px;}
+ 
+.auth__top {
+  border-radius: 7px 7px 0 0;
+  background: #fff;
+  padding: 80px 60px 20px 60px;
+  font-size: 21px;
+  position: relative;
+  margin-top: 70px; }
+
+.auth__avatar {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  margin-left: -70px; }
+
+.auth__bottom {
+  background: #33c1e3;
+  padding: 20px 0;
+  border-radius: 0 0 7px 7px; }
+
+.wrapper__auth {
+  max-width: 1000px;
+}
+
+
+.link__auth {
+  margin-left: 80px;
+}
+
+ .about__download-link {
+  padding: 7px 15px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about__download-link:hover {
+    background-color: #ffffff;
+    color: #33c1e3;
+}
+
+.auth__name {
+   margin-left: 30px;
+}
